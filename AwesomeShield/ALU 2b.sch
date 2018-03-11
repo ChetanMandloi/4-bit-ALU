@@ -932,7 +932,7 @@ U 1 1 59EB20D6
 P 9550 4400
 F 0 "BT1" H 9650 4500 50  0000 L CNN
 F 1 "Battery_Cell" H 9650 4400 50  0000 L CNN
-F 2 "Connectors:bornier2" V 9550 4460 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" V 9550 4460 50  0001 C CNN
 F 3 "" V 9550 4460 50  0001 C CNN
 	1    9550 4400
 	0    1    1    0   

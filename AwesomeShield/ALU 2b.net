@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:/Users/NeerajKumar/Downloads/ALU 2b/ALU 2b/ALU 2b.sch")
-    (date "11/11/17 23:42:40")
+    (source "C:/Users/NeerajKumar/Downloads/ALU 2dreturn/ALU 2d/ALU 2b/ALU 2b/ALU 2b.sch")
+    (date "11/26/17 07:53:39")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -419,7 +419,7 @@
       (tstamp 59EAB332))
     (comp (ref BT1)
       (value Battery_Cell)
-      (footprint Connectors:bornier2)
+      (footprint Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm)
       (libsource (lib device) (part Battery_Cell))
       (sheetpath (names /) (tstamps /))
       (tstamp 59EB20D6))
@@ -660,11 +660,11 @@
         (pin (num 2) (name ~) (type passive)))))
   (libraries
     (library (logical "ALU 2b-rescue")
-      (uri "C:\\Users\\NeerajKumar\\Downloads\\ALU 2b\\ALU 2b\\ALU 2b-rescue.lib"))
+      (uri "ALU 2b-rescue.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical "ALU 2b-cache")
-      (uri "C:\\Users\\NeerajKumar\\Downloads\\ALU 2b\\ALU 2b\\ALU 2b-cache.lib")))
+      (uri "C:\\Users\\NeerajKumar\\Downloads\\ALU 2dreturn\\ALU 2d\\ALU 2b\\ALU 2b\\ALU 2b-cache.lib")))
   (nets
     (net (code 1) (name "Net-(D17-Pad1)")
       (node (ref R9) (pin 2))
